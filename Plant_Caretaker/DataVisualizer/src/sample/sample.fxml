@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="VBox" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+   
+          <Button fx:id="button1" onAction="#handleButton1Click" text="Refresh Data">
+    </Button>
+   
+          <Button fx:id="button2" onAction="#dataCircles" text="Data as Dots">
+    </Button>
+   
+          <Button fx:id="button3" onAction="#dataLineChart" text="Data as LineChart">
+    </Button>
+      <Canvas fx:id="canvas" height="100" width="500" />
+   </children>
+</VBox>
